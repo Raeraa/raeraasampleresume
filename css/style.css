@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Verdana ;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../bg2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color:pink;
+    color:#000;
+}
+
+ul li.active a{
+    background-color: pink;
+    color:#000;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.main{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+
+}
+
+.title h2{
+    color: #fff;
+    font-size: 50px;
+
+}
+
+.button{
+        background-color: transparent;
+        color: transparent;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border: 1px solid #fff;
+        padding: 10px 30px;
+        transition: 0.6s ease;
+}
+.button:hover{
+    background-color: pink;
+    color: #000;
+}
+
+.button1{
+    background-color: transparent;
+        color: transparent;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border: 1px solid #fff;
+        padding: 10px 30px;
+        transition: 0.6s ease;
+}
+.button:hover{
+    background-color: pink;
+    color: #000;
+}
+
+
+
+/* about */
+
+.about-me{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.img1{
+    float: left;
+    width: 200px;
+    height: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 220px;
+    margin-bottom: 220px;
+    border-radius: 50%;
+}
+
+#about .about-text h1{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+#about .about-text h2{
+    color: #bd9b6a;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 20px;
+    padding-top: 90px;
+    padding-bottom: 10px;
+}
+#about .about-text p{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: left;
+    
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+/*EDUCATION*/
+
+#edu table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #8a9ea7;
+  }
+
+#edu th {
+    text-align: left;
+    padding: 16px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #8d9b6a;
+  }
+#edu  td {
+    text-align: left;
+    padding: 16px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    line-height: 100px;
+    color: whitesmoke;
+  }
+
+/* EXP */
+
+#exp table {
+    border-collapse: separate;
+    width: 100%;
+    border: 2px solid #8a9ea7;
+  }
+
+#exp th {
+    text-align: left;
+    padding: 18px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: lightskyblue;
+  }
+#exp  td {
+    text-align: left;
+    padding: 16px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    color: whitesmoke;
+  }
+  
+  /*zigzag skills*/
+
+* {
+    box-sizing:content-box;
+ }
+ body {
+    margin: 0;
+    font-family: inherit;
+ }
+ div h1{
+    font-size: 30px;
+    color: #bd9b6a;
+    text-align: justify;
+    padding: 20px;
+ }
+ div p{
+    font-size: 20px;
+    color: aliceblue;
+    letter-spacing: 2px;
+ }
+ .container {
+    padding: 50px;
+ }
+ .row:after {
+    content: "";
+    display: table;
+    clear: both
+ }
+ .width66 {
+    float: left;
+    width: 66.66666%;
+    padding: 40px;
+    padding-left: 200px;
+    height: 150px;
+ }
+ .width33 {
+    float: left;
+    width: 33.33333%;
+    padding: 40px;
+    padding-left: 200px;
+    height: 150px;
+ }
+ .large-font {
+    font-size: 48px;
+ }
+ .xlarge-font {
+    font-size: 64px
+ }
+ img {
+    display: block;
+    height: 170px;
+    width: 300px;
+    max-width: 100%;
+ }
+ @media screen and (max-width: 1000px) {
+    .width66, .width33 {
+       width: 100%;
+       text-align: center;
+    }
+    img {
+       margin: auto;
+    }
+ }
+
+
+ 
